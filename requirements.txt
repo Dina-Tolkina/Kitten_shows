@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+sqlalchemy
+tortoise-orm
+aerich==0.7.2
+asyncpg
+pydantic
+pydantic-settings
+python-jose[cryptography] 
+passlib[bcrypt]  
+python-jose==3.3.0
+SQLAlchemy==2.0.34
+email_validator==2.2.0
+pytest-asyncio
+pytest-cov
