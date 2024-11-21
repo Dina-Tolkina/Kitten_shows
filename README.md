@@ -23,28 +23,28 @@
 ## Как установить и запустить
 Для начала нужно сделать git clone
   ```sh
-  $ git clone https://github.com/Dina-Tolkina/Kitten_shows.git
+  git clone https://github.com/Dina-Tolkina/Kitten_shows.git
   ```
 Создать venv
   ```sh
-  $ python -m venv venv
+  python -m venv venv
   ```
 Активация виртуальной среды:
 - Для Windows:
   ```sh
-  $ venv\Scripts\activate
+  venv\Scripts\activate
   ```
 - Для Unix или MacOS:
   ```sh
-  $ source venv/bin/activate
+  source venv/bin/activate
   ```
 Установка зависимостей:
   ```sh
-  $ pip install -r requirements.txt
+  pip install -r requirements.txt
   ```
 Создать файл .env
   ```sh
-  $ POSTGRES_USER=username
+    POSTGRES_USER=username
     POSTGRES_PASSWORD=password
     POSTGRES_DB=database_name
     DATABASE_URL=postgres://username:password@postgres_db:5432/database_name
@@ -53,7 +53,7 @@
   ```
 Сборка и запуск контейнера с помощью docker-compose
   ```sh
-  $ docker-compose up --build
+  docker-compose up --build
   ```
 Документация по API будет доступна по адресу: [http://localhost:8000/docs](http://localhost:8000/docs)
 
